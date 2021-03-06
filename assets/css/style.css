@@ -1,0 +1,21 @@
+.header {
+  background-color: rgb(88, 37, 88);
+}
+.navbar {
+}
+.content {
+}
+. {
+}
+.my-contacts {
+  background-color: pink;
+}
+.about-me {
+  background-color: rebeccapurple;
+}
+.project-container {
+  background-color: salmon;
+}
+.project-container .card {
+  background-color: sandybrown;
+}
