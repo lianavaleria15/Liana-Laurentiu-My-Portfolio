@@ -1,6 +1,7 @@
 body {
-  margin: 30px;
+  margin: 0px;
 }
+/* navigation bar style*/
 .header {
   padding: 60px;
   height: 100px;
@@ -10,15 +11,15 @@ body {
   justify-content: space-between;
 }
 
-.navbar ul {
+.header .navbar ul {
   margin: 40px;
   padding: 10px;
-  display: inline;
-  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
 }
-.navbar a {
-  float: left;
+.navbar li {
   text-decoration: none;
+  display: inline;
 }
 .nav-button {
 }
