@@ -44,14 +44,22 @@ body {
 }
 .project-container {
   margin: 60px;
-  padding: 10px;
+  padding: 0 px;
   border: 2px solid black;
   background-color: rgb(235, 229, 228);
   position: relative;
 }
 .project-container .card {
   border: 1px solid black;
-  background-color: ;
+  /* background-color: ; */
   width: 250px;
   height: 250px;
+}
+.project-container .card h3 {
+  text-align: center;
+  background-color: rgb(188, 140, 233);
+}
+.project-container .card img {
+}
+.project-container .card a {
 }
