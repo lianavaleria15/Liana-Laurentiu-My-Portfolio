@@ -5,37 +5,30 @@ body {
   margin: 0px;
 }
 /* navigation bar style*/
-.header {
-  padding: 60px;
-  height: 200px;
+.header-container {
   width: 100%;
-  border: 1px solid black;
   position: fixed;
   overflow: hidden;
   top: 0px;
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: rgb(116, 98, 133);
 }
-.header h1 {
-  color: rgb(13, 6, 19);
-}
-.header .nav-button {
+.nav-item {
+  margin: 10px;
+  padding: 10px;
   text-decoration: none;
   text-align: center;
   display: block;
   font-size: 25px;
-  background-color: blueviolet;
+  color: whitesmoke;
 }
-
-/* .nav-button {
-} */
-
 .main-content {
   margin-top: 200px;
 }
+/* flex container with my contacts links*/
 .my-contacts {
   margin: 0px;
   background-color: pink;
@@ -44,6 +37,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.contact-item {
 }
 . .about-me {
   background-color: rebeccapurple;
