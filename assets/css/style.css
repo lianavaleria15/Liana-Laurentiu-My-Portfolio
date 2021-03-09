@@ -28,9 +28,10 @@ body {
 }
 .nav-button {
 }
+/*main section styling*/
+/* .content {
 
-.content {
-}
+} */
 
 . {
 }
@@ -44,16 +45,18 @@ body {
 }
 .project-container {
   margin: 60px;
-  padding: 0 px;
+  padding: 20 px;
   border: 2px solid black;
   background-color: rgb(235, 229, 228);
   position: relative;
 }
 .project-container .card {
-  border: 1px solid black;
+  border: 2px solid black;
   /* background-color: ; */
-  width: 250px;
-  height: 250px;
+  padding: 10px;
+  float: left;
+  width: 50%;
+  height: 600px;
 }
 .project-container .card h3 {
   text-align: center;
@@ -63,3 +66,5 @@ body {
 }
 .project-container .card a {
 }
+
+/*media query settings for mobile and table screens*/
