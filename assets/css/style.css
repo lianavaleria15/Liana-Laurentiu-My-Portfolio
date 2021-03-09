@@ -11,6 +11,7 @@ body {
   width: 100%;
   border: 1px solid black;
   position: fixed;
+  overflow: hidden;
   top: 0px;
   z-index: 2;
   display: flex;
@@ -20,29 +21,25 @@ body {
 .header h1 {
   background-color: blueviolet;
 }
-.header a {
+.header .nav-button {
   text-decoration: none;
+  text-align: center;
   display: inline;
   font-size: 25px;
   background-color: blueviolet;
 }
-.navbar li {
-  text-decoration: none;
-  display: inline;
-}
-.nav-button {
-}
-/*main section styling*/
-/* .content {
 
+/* .nav-button {
 } */
 
-. {
+.main-content {
+  margin-top: 200px;
 }
 .my-contacts {
   margin: 0px;
   background-color: pink;
   border: 2px soldi black;
+  position: relative;
 }
 .about-me {
   background-color: rebeccapurple;
