@@ -21,24 +21,38 @@ body {
   padding: 10px;
   text-decoration: none;
   text-align: center;
-  display: block;
   font-size: 25px;
   color: whitesmoke;
 }
 .main-content {
-  margin-top: 200px;
+  margin-top: 68px; /*come back to this!!!*/
 }
 /* flex container with my contacts links*/
-.my-contacts {
-  margin: 0px;
-  background-color: pink;
-  border: 2px soldi black;
+.hero-image {
+  background-image: url("/assets/images/hero.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
+}
+.contacts-container {
+  /* background-color: pink; */
+  border: 2px solid aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.contact-item {
+.contacts-item {
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: large;
+  color: aliceblue;
 }
 . .about-me {
   background-color: rebeccapurple;
