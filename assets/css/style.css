@@ -7,20 +7,24 @@ body {
 /* navigation bar style*/
 .header {
   padding: 60px;
-  height: 100px;
+  height: 200px;
+  width: 100%;
   border: 1px solid black;
-  /*position: fixed;
+  position: fixed;
   top: 0px;
-  z-index: 2;*/
+  z-index: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.header .navbar ul {
-  margin: 40px;
-  padding: 10px;
-  list-style-type: none;
+.header h1 {
+  background-color: blueviolet;
+}
+.header a {
+  text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  background-color: blueviolet;
 }
 .navbar li {
   text-decoration: none;
