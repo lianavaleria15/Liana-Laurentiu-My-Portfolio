@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   line-height: 1.5;
+  background-color: rgb(241, 184, 184);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* navigation bar style*/
@@ -40,7 +41,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .contacts-container {
   position: absolute;
@@ -50,21 +51,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  opacity: 1;
 }
 .contacts-item {
   margin: 10px;
   padding: 15px;
   font-size: 50px;
   text-decoration: none;
-  color: rgb(99, 4, 4);
-  opacity: 1;
+  color: rgb(241, 23, 23);
 }
 .contacts-item:hover {
   font-size: 60px;
 }
 .about-me-container {
-  border: 1px solid black;
-  margin: 5% 15%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: ivory;
   display: flex;
   flex-wrap: wrap;
   /* position: relative; */
@@ -94,7 +97,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* margin: 10% 10%; */
+  background-color: ivory;
 }
 .card {
   margin: 0px 25px 25px 25px;
@@ -123,9 +126,8 @@ body {
 
 /*media query settings for mobile and table screens*/
 @media screen and (max-width: 768px) {
-  .header-container {
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+  .header-container .contacts-container .about-me-container {
+    flex-direction: column;
   }
   .project-container .card {
     width: 100%;
