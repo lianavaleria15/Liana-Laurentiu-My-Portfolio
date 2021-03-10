@@ -15,8 +15,8 @@ body {
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  background-color: rgb(116, 98, 133);
+  justify-content: center;
+  background-color: rgb(54, 49, 50);
 }
 .nav-item {
   margin: 10px;
@@ -24,10 +24,13 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 25px;
-  color: whitesmoke;
+  color: rgb(235, 226, 226);
+}
+.nav-item:hover {
+  border-bottom: 4px solid rgb(204, 63, 63);
 }
 .main-content {
-  margin-top: 68px; /*come back to this!!!*/
+  margin-top: 20px;
 }
 /* flex container with my contacts links*/
 .hero-image {
@@ -37,6 +40,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.6;
 }
 .contacts-container {
   /* background-color: pink; */
@@ -93,6 +97,7 @@ body {
 .card-header {
   text-align: left;
   margin: 0 10px 10px 10px;
+  color: rgb(204, 63, 63);
 }
 .card-image {
   width: 100%;
