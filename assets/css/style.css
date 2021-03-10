@@ -43,8 +43,6 @@ body {
   opacity: 0.6;
 }
 .contacts-container {
-  /* background-color: pink; */
-  /* border: 2px solid aliceblue; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,28 +53,41 @@ body {
 }
 .contacts-item {
   margin: 10px;
-  padding: 5px;
+  padding: 15px;
+  font-size: 50px;
   text-decoration: none;
-  font-size: large;
-  color: aliceblue;
+  color: rgb(99, 4, 4);
+  opacity: 1;
+}
+.contacts-item:hover {
+  font-size: 60px;
 }
 .about-me-container {
-  /* background-color: rebeccapurple; */
-  margin: 100px;
+  border: 1px solid black;
+  margin: 5% 15%;
   display: flex;
   flex-wrap: wrap;
   /* position: relative; */
 }
 .about-me-container h1 {
-  text-align: center;
-  margin: 2%;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  margin: 0 2%;
+  width: 100%;
+  color: rgb(99, 4, 4);
 }
 .about-me-container img {
+  margin: 5%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  /* position: absolute; */
-  /* transform: translate(15%, 50%); */
+}
+.about-me-item {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 5%;
+  width: 50%;
 }
 
 .my-projects {
