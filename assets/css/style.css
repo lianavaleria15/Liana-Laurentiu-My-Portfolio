@@ -72,17 +72,25 @@ body {
 .card {
   margin: 25px;
   border: 2px solid black;
-  padding: 10px;
-  width: 400px;
-  height: 400px;
+  padding: 25px;
+  /* width: 400px; */
+  flex: 0 0 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card-header {
   text-align: center;
   background-color: rgb(188, 140, 233);
 }
 .card-image {
+  width: 100%;
+  height: 200px;
+}
+.card p {
 }
 .card-link {
+  width: 50%;
 }
 
 /*media query settings for mobile and table screens*/
