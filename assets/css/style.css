@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* navigation bar style*/
 .header-container {
@@ -64,6 +65,7 @@ body {
 }
 .about-me-container h1 {
   text-align: center;
+  margin: 2%;
 }
 .about-me-container img {
   width: 200px;
@@ -97,6 +99,7 @@ body {
   height: 200px;
 }
 .card p {
+  width: 100%;
 }
 .card-link {
   width: 50%;
@@ -104,6 +107,10 @@ body {
 
 /*media query settings for mobile and table screens*/
 @media screen and (max-width: 768px) {
+  .header-container {
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+  }
   .project-container .card {
     width: 100%;
   }
