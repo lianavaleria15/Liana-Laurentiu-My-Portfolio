@@ -8,7 +8,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* navigation bar style*/
-.header-container {
+.nav-container {
   width: 100%;
   position: fixed;
   overflow: hidden;
