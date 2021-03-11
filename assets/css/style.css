@@ -141,7 +141,6 @@ body {
     align-content: center;
     width: 100%;
   }
-
   .card {
     width: 100%;
   }
@@ -153,8 +152,16 @@ body {
     margin-top: 200px;
   }
 @media screen and (max-width: 992px) {
+
   .project-container .card {
     width: 50%;
     -ms-flex-align: center;
+  }
+  .header-container,
+  .contacts-container,
+  .about-me-container {
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
   }
 }
