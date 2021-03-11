@@ -13,9 +13,11 @@
   </head>
   <body>
     <header class="header-container">
-      <a class="nav-item" href="#my-contacts"> Contact me</a>
-      <a class="nav-item" href="#about-me">About me</a>
-      <a class="nav-item" href="#my-projects">My projects</a>
+      <nav class="nav-container">
+        <a class="nav-item" href="#my-contacts"> Contact me</a>
+        <a class="nav-item" href="#about-me">About me</a>
+        <a class="nav-item" href="#my-projects">My projects</a>
+      </nav>
     </header>
     <main class="main-content">
       <div class="hero-image">
@@ -41,7 +43,9 @@
       </div>
       <div id="about-me" class="about-me-container">
         <h1>Hi, I am Liana...</h1>
-        <img src="./assets/images/about-me.jpg" alt="My profile picture" />
+        <div>
+          <img src="./assets/images/about-me.jpg" alt="My profile picture" />
+        </div>
         <div class="about-me-item">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
@@ -54,8 +58,11 @@
           accident, sometimes on purpose (injected humour and the like).
         </div>
       </div>
-      <h2>My projects</h2>
+
       <section id="my-projects" class="my-projects">
+        <div class="my-projects-header">
+          <h2>My projects</h2>
+        </div>
         <section class="card">
           <h3 class="card-header">Horiseon - Code refactor</h3>
           <img
@@ -63,7 +70,7 @@
             src="./assets/images/card-1.jpg"
             alt="Code refactor image"
           />
-          <p class="text-card">
+          <div class="text-card">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -73,7 +80,7 @@
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
-          </p>
+          </div>
           <a href class="card-link" href="#">Open GitHub Repo</a>
           <a href class="card-link" href="#"> Live application</a>
         </section>

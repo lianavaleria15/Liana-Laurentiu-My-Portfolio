@@ -63,14 +63,14 @@ body {
 .contacts-item:hover {
   font-size: 60px;
 }
+/*about-me container*/
 .about-me-container {
-  /* border: 1px solid black; */
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: ivory;
   display: flex;
   flex-wrap: wrap;
-  /* position: relative; */
+  justify-content: center;
 }
 .about-me-container h1 {
   margin: 20px;
@@ -92,21 +92,29 @@ body {
   margin: 5%;
   width: 50%;
 }
-
+/*my projects container*/
 .my-projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: ivory;
 }
+.my-projects-header {
+  text-align: center;
+}
 .card {
   margin: 0px 25px 25px 25px;
-  border: 2px solid black;
+  border: 2px solid rgb(78, 70, 70);
   padding: 25px;
+  width: 300px;
   flex: 0 0 400px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex: 1 0 31%;
+}
+.card:nth-child(1) {
+  width: 600px;
 }
 .card-header {
   text-align: left;
@@ -133,6 +141,10 @@ body {
   }
   .project-container .card {
     width: 100%;
+  }
+  /*hackie fix until I learn how to do it*/
+  .contacts-container {
+    margin-top: 200px;
   }
 }
 @media screen and (max-width: 992px) {
