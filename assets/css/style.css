@@ -80,8 +80,8 @@ body {
   width: 100%;
   color: rgb(99, 4, 4);
 }
-  
- .about-me-container img {
+
+.about-me-container img {
   margin: 5%;
   width: 200px;
   height: 200px;
@@ -116,7 +116,6 @@ body {
 }
 /* .card:nth-child(1) {
   width: 600px; */
-}
 .card-header {
   text-align: left;
   margin: 0 10px 10px 10px;
@@ -146,11 +145,13 @@ body {
   .card {
     width: 100%;
   }
+  .card-image{
+    max-width:100%;
+  }
   /*hacky fix until I have time to fix it*/
   .main-content {
     margin-top: 200px;
   }
-}
 @media screen and (max-width: 992px) {
   .project-container .card {
     width: 50%;
