@@ -114,11 +114,11 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.card:first-child {
-  /* flex: 0 0 600px; */
-}
+/* .card:first-child {
+  /* flex: 0 0 600px; }*/
+
 .card-header {
-  text-align: left;
+  text-align: center;
   margin: 0 10px 10px 10px;
   color: rgb(204, 63, 63);
 }
@@ -126,9 +126,9 @@ body {
   height: 200px;
 }
 .card-image:first-child {
-  width: 50%;
-  align-content: center;
+  height: 300px;
 }
+
 .card p {
   width: 100%;
 }
@@ -156,6 +156,9 @@ body {
   }
   .card {
     flex: 0 0 280px;
+  }
+  .card-image:first-child {
+    max-height: 150px;
   }
 }
 @media screen and (min-width: 320px) (max-width: 768px) {
