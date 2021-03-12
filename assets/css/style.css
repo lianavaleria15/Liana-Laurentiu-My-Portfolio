@@ -20,23 +20,23 @@ body {
   background-color: rgb(54, 49, 50);
 }
 .nav-item {
-  margin: 10px;
-  padding: 10px;
+  margin: 0.6rem;
+  padding: 0.6rem;
   text-decoration: none;
   text-align: center;
   font-size: 25px;
   color: rgb(235, 226, 226);
 }
 .nav-item:hover {
-  border-bottom: 4px solid rgb(204, 63, 63);
+  border-bottom: 0.3rem solid rgb(204, 63, 63);
 }
 .main-content {
-  margin-top: 20px;
+  margin-top: 1.3rem;
 }
 /* flex container with my contacts links*/
 .hero-image {
   background-image: url("../images/hero.jpg");
-  height: 400px;
+  height: 24rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,24 +54,24 @@ body {
   opacity: 1;
 }
 .contacts-item {
-  margin: 10px;
-  padding: 15px;
-  font-size: 50px;
+  margin: 0.6rem;
+  padding: 0.9rem;
+  font-size: 3rem;
   text-decoration: none;
   color: rgb(241, 23, 23);
 }
 .contacts-item:hover {
-  font-size: 60px;
+  font-size: 3.2rem;
 }
 /*about-me container*/
 .about-me-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .about-me-container h1 {
-  margin: 50px;
-  padding: 10px;
+  margin: 3rem;
+  padding: 0.6rem;
   text-align: left;
   margin: 0 2%;
   width: 100%;
@@ -80,15 +80,17 @@ body {
 
 .about-me-container img {
   margin: 5%;
-  width: 200px;
-  height: 200px;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
 }
 .about-me-item {
-  border: 1px solid black;
-  padding: 25px;
+  border-bottom: 0.3rem solid black;
+  border-right: 0.3rem solid black;
+  padding: 0.3px;
   margin: 5%;
-  width: 50%;
+  width: 30%;
+  text-align: justify;
 }
 /*my projects container*/
 .projects-flexbox {
@@ -100,28 +102,25 @@ body {
   text-align: center;
 }
 .card {
-  margin: 25px;
+  margin: 1.6rem;
   /* border: 1px solid rgb(78, 70, 70); */
   border-radius: 10%;
   padding: 10px;
-  flex: 0 0 300px;
+  flex: 0 0 18rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-/* .card:first-child {
-  /* flex: 0 0 600px; }*/
-
 .card-header {
   text-align: center;
-  margin: 0 10px 10px 10px;
+  margin: 0 0.6rem 0.6rem 0.6rem;
   color: rgb(204, 63, 63);
 }
 .card-image {
-  height: 200px;
+  height: 12rem;
 }
 .card-image:first-child {
-  height: 300px;
+  height: 18rem;
 }
 
 .card p {
@@ -143,40 +142,39 @@ body {
   }
   /*hacky fix until I have time to fix it*/
   .main-content {
-    margin-top: 200px;
+    margin-top: 12rem;
   }
 
   .about-me-item {
     width: 100%;
   }
   .card {
-    flex: 0 0 280px;
+    flex: 0 0 17.5rem;
   }
   .card-image {
-    max-height: 80px;
+    max-height: 5rem;
   }
   .card-image:first-child {
-    max-height: 150px;
+    max-height: 9rem;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .main-content {
+    margin-top: 3rem;
+  }
   .header-container,
-  .contacts-container,
-  .about-me-container {
+  .contacts-container {
     flex-direction: column;
     align-content: center;
     width: 100%;
-  }
-  .main-content {
-    margin-top: 50px;
   }
   .about-me-item {
     width: 100%;
   }
   .card {
-    flex: 0 0 400px;
+    flex: 0 0 24rem;
   }
   .card-image {
-    max-height: 500px;
+    max-height: 30rem;
   }
 }
