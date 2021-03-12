@@ -6,9 +6,9 @@ body {
   line-height: 1.5;
   background-color: rgb(241, 184, 184);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-/* navigation bar style*/
 .nav-container {
   width: 100%;
   position: fixed;
