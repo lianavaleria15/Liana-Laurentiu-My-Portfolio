@@ -144,7 +144,10 @@ body {
   .main-content {
     margin-top: 12rem;
   }
-
+  .about-me-container img {
+    width: 6rem;
+    height: 6rem;
+  }
   .about-me-item {
     width: 100%;
   }
