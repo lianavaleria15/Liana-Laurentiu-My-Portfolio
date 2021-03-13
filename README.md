@@ -31,6 +31,8 @@ In this project I had to create my personal portfolio page and I was required to
 
 ### Tablet size
 
+![tablet_media](assets/images/tablet_media.png)
+
 ### Mobile size
 
 ## Link deployed portfolio
