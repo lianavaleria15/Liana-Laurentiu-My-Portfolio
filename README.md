@@ -35,6 +35,8 @@ In this project I had to create my personal portfolio page and I was required to
 
 ### Mobile size
 
+![mobile_version](assets/images/mobile_version.png)
+
 ## Link deployed portfolio
 
 Click [here](https://lianavaleria15.github.io/my_portfolio/) to see my deployed portfolio.

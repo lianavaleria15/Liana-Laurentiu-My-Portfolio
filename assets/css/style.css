@@ -131,7 +131,7 @@ body {
 
 /*media query settings for mobile and table screens*/
 
-@media screen and (min-width: 100px) and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header-container,
   .contacts-container,
   .about-me-container {
@@ -141,7 +141,7 @@ body {
   }
   /*hacky fix until I have time to fix it*/
   .main-content {
-    margin-top: 0rem;
+    margin-top: 13rem;
   }
   .about-me-container img {
     width: 6rem;
