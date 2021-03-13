@@ -21,11 +21,13 @@ In this project I had to create my personal portfolio page and I was required to
 
 - used flexbox and media query to ensure the layout is responsive on different screen size (mobile, tablet and desktop)
 - added external social media icons for my contact section
-- used pseudo-element attribute to increase the size of first project card
+- used :first-child pseudo attribute to increase the size of the first project card
 
 ## Screenshots deployed portfolio
 
 ### Desktop size
+
+![desktop_media](assets/images/desktop_media.png)
 
 ### Tablet size
 
