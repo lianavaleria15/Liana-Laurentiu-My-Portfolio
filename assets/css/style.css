@@ -67,9 +67,9 @@ body {
 .about-me-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
-.about-me-container h1 {
+.about-me-item h1 {
   margin: 3rem;
   padding: 0.6rem;
   text-align: left;
@@ -79,16 +79,15 @@ body {
 }
 
 .about-me-container img {
-  margin: 5%;
+  margin: 80%;
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
 .about-me-item {
+  margin: 3rem 
+  padding: 1rem;
   border-bottom: 0.3rem solid black;
-  border-right: 0.3rem solid black;
-  padding: 0.3px;
-  margin: 5%;
   width: 30%;
   text-align: justify;
 }
