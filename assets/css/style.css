@@ -79,13 +79,13 @@ body {
 }
 
 .about-me-container img {
-  margin: 80%;
+  margin: 30%;
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
 .about-me-item {
-  margin: 3rem 
+  margin: 3rem;
   padding: 1rem;
   border-bottom: 0.3rem solid black;
   width: 30%;
