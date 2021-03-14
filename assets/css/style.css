@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --shadow_red: #cc3f3f;
+  --white: #ebe2e2;
+  --red: #f11717;
+  --dark_red: #630404;
+  --black: #000000;
+  --dark-grey: #363132;
+}
 body {
   margin: 0px;
   line-height: 1.5;
@@ -17,7 +25,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(54, 49, 50);
+  background-color: var(--dark-grey);
 }
 .nav-item {
   margin: 0.6rem;
@@ -25,13 +33,13 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 25px;
-  color: rgb(235, 226, 226);
+  color: var(--white);
 }
 .nav-item:hover {
-  border-bottom: 0.3rem solid rgb(204, 63, 63);
+  border-bottom: 0.3rem solid var(--shadow_red);
 }
 .main-content {
-  margin-top: 1.6 rem;
+  margin-top: 1.6rem;
 }
 /* flex container with my contacts links*/
 .hero-image {
@@ -58,7 +66,7 @@ body {
   padding: 0.9rem;
   font-size: 3rem;
   text-decoration: none;
-  color: rgb(241, 23, 23);
+  color: var(--red);
 }
 .contacts-item:hover {
   font-size: 3.2rem;
@@ -75,7 +83,7 @@ body {
   text-align: left;
   margin: 0 2%;
   width: 100%;
-  color: rgb(99, 4, 4);
+  color: var(--dark_red);
 }
 
 .about-me-container img {
@@ -87,7 +95,7 @@ body {
 .about-me-item {
   margin: 3rem;
   padding: 1rem;
-  border-bottom: 0.3rem solid black;
+  border-bottom: 0.3rem solid var(--shadow_red);
   width: 30%;
   text-align: justify;
 }
@@ -102,7 +110,6 @@ body {
 }
 .card {
   margin: 1.6rem;
-  /* border: 1px solid rgb(78, 70, 70); */
   border-radius: 10%;
   padding: 10px;
   flex: 0 0 18rem;
@@ -113,7 +120,7 @@ body {
 .card-header {
   text-align: center;
   margin: 0 0.6rem 0.6rem 0.6rem;
-  color: rgb(204, 63, 63);
+  color: var(--shadow_red);
 }
 .card-image {
   height: 12rem;

@@ -21,7 +21,10 @@ In this project I had to create my personal portfolio page and I was required to
 
 - used flexbox and media query to ensure the layout is responsive on different screen size (mobile, tablet and desktop)
 - added external social media icons for my contact section
-- used :first-child pseudo attribute to increase the size of the first project card
+- used :first-child pseudo element to increase the size of the first project card
+- applied :hover pseudo-element to change the color property for contact icons and add bottom borders for navigation links
+- applied variable function to define and apply colors in my stylesheet, which would allow me to change color property just in the root elements and targeting more elements
+-
 
 ## Screenshots deployed portfolio
 
